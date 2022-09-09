@@ -5,7 +5,7 @@
 # ⭐ _name -> Indicates that is a private or for internal use: Objects named this way will not get imported by
 # from module import *
 
-# ⭐ __age -> Used to "mangle" class attributes - useful in inhetitance chains
+# ⭐ __age -> Used to "mangle" class attributes - useful in inheritance chains
 
 # ⭐ __calc__ -> User defined dunder methods that have a special meaning to the interpreter
 # 🔥 Dont invent them. Stick to the ones provided by Python!

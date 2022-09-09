@@ -10,6 +10,14 @@ except ZeroDivisionError:
 finally:
     print("This always runs, no matter what")
 
+"""
+Output:
+
+Result 5.0
+This always runs, no matter what
+
+"""
+
 
 """
 Using try..except...finally
