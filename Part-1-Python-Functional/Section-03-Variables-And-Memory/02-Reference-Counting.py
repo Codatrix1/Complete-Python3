@@ -56,6 +56,14 @@ my_new_list = [67, 34, 89]
 print("ref_count(my_new_list):", ref_count(id(my_new_list)))  # --> 1
 my_func(my_new_list)  # --> 3
 
+"""
+when list "my_new_list" is created it is reference count 1.
+
+when user defined function ref_count is called and argument is passed; it first establishes reference to its formal parameter 'my_new_list' (def ref_count(my_new_list)). Thats reference count 2.
+
+Then the formal parameter 'my_new_list' establishes reference to list my_new_list. Thats reference count 3.
+
+"""
 # ---------------------------------------------
 
 a = [14, 15, 16]
